@@ -1,11 +1,11 @@
 import { useDispatch, useSelector } from "react-redux";
-import "./each_repo.scss";
+import "./each-repo.scss";
 import { clearData, setEachRepoDetail } from "../../redux/actions/actions";
 import { FaSearch } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import "./each_repo.scss"
+import "./each-repo.scss"
 
 export default function EachRepo() {
     const [repoName, setRepoName] = useState("");
