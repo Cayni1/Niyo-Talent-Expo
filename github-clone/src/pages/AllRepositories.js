@@ -1,5 +1,5 @@
 import Profile from "../components/profile/Profile";
-import RepositoryCard from "../components/repositories/RepositoryCard";
+import RepositoryCard from "../components/repository-card/RepositoryCard";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./../components/scss/pages.scss"

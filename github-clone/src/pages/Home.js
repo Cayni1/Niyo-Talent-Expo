@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import Profile from "../components/profile/Profile";
-import RepositoryCard from "../components/repositories/RepositoryCard";
+import RepositoryCard from "../components/repository-card/RepositoryCard";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import "./../components/scss/pages.scss"

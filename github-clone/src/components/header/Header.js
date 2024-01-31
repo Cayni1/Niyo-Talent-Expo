@@ -1,4 +1,4 @@
-import SearchForm from "../search/SearchForm";
+import SearchForm from "../search-form/SearchForm";
 import "./Header.scss";
 
 export default function Header (){
